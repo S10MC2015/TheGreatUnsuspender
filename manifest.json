@@ -1,0 +1,14 @@
+{
+    "name": "The Great Unsuspender",
+    "version": "0.1",
+    "description": "Like TGS but only one way and not malicious!",
+    "permissions": [
+        "tabs", 
+        "activeTab", 
+        "chrome-extension://*/*"
+    ],
+    "background": {
+        "services_worker": ["background.js"]
+    },
+    "manifest_version": 3
+}
